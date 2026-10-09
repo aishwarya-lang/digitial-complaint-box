@@ -1,0 +1,914 @@
+{
+  "users": [
+    {
+      "id": "usr_student1",
+      "username": "STU1001",
+      "name": "Aishwarya Ramesh",
+      "email": "aishwarya.student@college.edu",
+      "role": "STUDENT",
+      "registerNumber": "STU1001",
+      "department": "CSE (Computer Science & Engg)",
+      "password": "$2a$10$EfWhZRNCMB42ceoi4pAoAunX6dgm0IVr21Ag4pgGsQvYlwV3O4Mx2",
+      "status": "ACTIVE",
+      "createdAt": "2026-09-29T09:52:45.483Z"
+    },
+    {
+      "id": "usr_student2",
+      "username": "STU1002",
+      "name": "Rahul Varma",
+      "email": "rahul.student@college.edu",
+      "role": "STUDENT",
+      "registerNumber": "STU1002",
+      "department": "MECH (Mechanical Engg)",
+      "password": "$2a$10$EfWhZRNCMB42ceoi4pAoAunX6dgm0IVr21Ag4pgGsQvYlwV3O4Mx2",
+      "status": "ACTIVE",
+      "createdAt": "2026-10-01T09:52:45.484Z"
+    },
+    {
+      "id": "usr_student3",
+      "username": "STU1003",
+      "name": "Karthik Raja",
+      "email": "karthik.aids@college.edu",
+      "role": "STUDENT",
+      "registerNumber": "STU1003",
+      "department": "AIDS (AI & Data Science)",
+      "password": "$2a$10$EfWhZRNCMB42ceoi4pAoAunX6dgm0IVr21Ag4pgGsQvYlwV3O4Mx2",
+      "status": "ACTIVE",
+      "createdAt": "2026-10-03T09:52:45.484Z"
+    },
+    {
+      "id": "usr_staff_cse",
+      "username": "STAFF_CSE",
+      "name": "Prof. Anitha Nair (CSE)",
+      "email": "anitha.cse@college.edu",
+      "role": "DEPARTMENT_STAFF",
+      "department": "CSE (Computer Science & Engg)",
+      "password": "$2a$10$EfWhZRNCMB42ceoi4pAoAunX6dgm0IVr21Ag4pgGsQvYlwV3O4Mx2",
+      "status": "ACTIVE",
+      "createdAt": "2026-09-06T09:52:45.484Z"
+    },
+    {
+      "id": "usr_staff_it",
+      "username": "STAFF_IT",
+      "name": "Eng. Vikas Menon (IT)",
+      "email": "vikas.it@college.edu",
+      "role": "DEPARTMENT_STAFF",
+      "department": "IT (Information Tech)",
+      "password": "$2a$10$EfWhZRNCMB42ceoi4pAoAunX6dgm0IVr21Ag4pgGsQvYlwV3O4Mx2",
+      "status": "ACTIVE",
+      "createdAt": "2026-09-06T09:52:45.484Z"
+    },
+    {
+      "id": "usr_staff_aids",
+      "username": "STAFF_AIDS",
+      "name": "Dr. Arvind Swamy (AIDS)",
+      "email": "arvind.aids@college.edu",
+      "role": "DEPARTMENT_STAFF",
+      "department": "AIDS (AI & Data Science)",
+      "password": "$2a$10$EfWhZRNCMB42ceoi4pAoAunX6dgm0IVr21Ag4pgGsQvYlwV3O4Mx2",
+      "status": "ACTIVE",
+      "createdAt": "2026-09-06T09:52:45.484Z"
+    },
+    {
+      "id": "usr_staff_mech",
+      "username": "STAFF_MECH",
+      "name": "Dr. Suresh Kumar (MECH)",
+      "email": "suresh.mech@college.edu",
+      "role": "DEPARTMENT_STAFF",
+      "department": "MECH (Mechanical Engg)",
+      "password": "$2a$10$EfWhZRNCMB42ceoi4pAoAunX6dgm0IVr21Ag4pgGsQvYlwV3O4Mx2",
+      "status": "ACTIVE",
+      "createdAt": "2026-09-06T09:52:45.485Z"
+    },
+    {
+      "id": "usr_staff_hostel",
+      "username": "STAFF_HOSTEL",
+      "name": "Warden Rajesh (Hostel)",
+      "email": "rajesh.hostel@college.edu",
+      "role": "DEPARTMENT_STAFF",
+      "department": "Hostel & Mess",
+      "password": "$2a$10$EfWhZRNCMB42ceoi4pAoAunX6dgm0IVr21Ag4pgGsQvYlwV3O4Mx2",
+      "status": "ACTIVE",
+      "createdAt": "2026-09-06T09:52:45.485Z"
+    },
+    {
+      "id": "usr_principal",
+      "username": "PRINCIPAL",
+      "name": "Dr. K. S. Ramanathan",
+      "email": "principal@college.edu",
+      "role": "PRINCIPAL",
+      "department": "Administration",
+      "password": "$2a$10$EfWhZRNCMB42ceoi4pAoAunX6dgm0IVr21Ag4pgGsQvYlwV3O4Mx2",
+      "status": "ACTIVE",
+      "createdAt": "2026-08-07T09:52:45.485Z"
+    },
+    {
+      "id": "usr_admin",
+      "username": "ADMIN",
+      "name": "System Administrator",
+      "email": "admin@college.edu",
+      "role": "ADMIN",
+      "department": "IT Infrastructure",
+      "password": "$2a$10$EfWhZRNCMB42ceoi4pAoAunX6dgm0IVr21Ag4pgGsQvYlwV3O4Mx2",
+      "status": "ACTIVE",
+      "createdAt": "2026-07-08T09:52:45.485Z"
+    },
+    {
+      "id": "usr_1791280404168",
+      "username": "8201",
+      "name": "aishu",
+      "email": "teststudent@gmail.com",
+      "role": "STUDENT",
+      "registerNumber": "8201",
+      "department": "Computer Science",
+      "password": "$2a$10$EC.DvrsNgrTCkj868LaZ6.GX9mMu/AuR8FuZ3UQobRYOYhDRqDD2y",
+      "status": "ACTIVE",
+      "createdAt": "2026-10-06T09:53:24.169Z"
+    },
+    {
+      "id": "usr_1791299351681",
+      "username": "82011",
+      "name": "aish",
+      "email": "aishwaryaaishwarya585@gmail.com",
+      "role": "STUDENT",
+      "registerNumber": "82011",
+      "department": "Computer Science",
+      "password": "$2a$10$EN0LY76C1dDCtklxeFrjb.ao8LnGAaKS0jbSUR.c575A0DVdV46yW",
+      "status": "ACTIVE",
+      "createdAt": "2026-10-06T15:09:11.681Z"
+    }
+  ],
+  "departments": [
+    {
+      "id": "dept_cse",
+      "name": "CSE (Computer Science & Engg)",
+      "code": "CSE",
+      "head": "Prof. Anitha Nair",
+      "contactEmail": "cse.dept@college.edu"
+    },
+    {
+      "id": "dept_it",
+      "name": "IT (Information Tech)",
+      "code": "IT",
+      "head": "Eng. Vikas Menon",
+      "contactEmail": "it.dept@college.edu"
+    },
+    {
+      "id": "dept_aids",
+      "name": "AIDS (AI & Data Science)",
+      "code": "AIDS",
+      "head": "Dr. Arvind Swamy",
+      "contactEmail": "aids.dept@college.edu"
+    },
+    {
+      "id": "dept_mech",
+      "name": "MECH (Mechanical Engg)",
+      "code": "MECH",
+      "head": "Dr. Suresh Kumar",
+      "contactEmail": "mech.dept@college.edu"
+    },
+    {
+      "id": "dept_ece",
+      "name": "ECE (Electronics & Comm)",
+      "code": "ECE",
+      "head": "Dr. Priya Sharma",
+      "contactEmail": "ece.dept@college.edu"
+    },
+    {
+      "id": "dept_eee",
+      "name": "EEE (Electrical & Electronics)",
+      "code": "EEE",
+      "head": "Dr. Meena George",
+      "contactEmail": "eee.dept@college.edu"
+    },
+    {
+      "id": "dept_civil",
+      "name": "CIVIL (Civil Engineering)",
+      "code": "CIVIL",
+      "head": "Prof. Robert Fernandez",
+      "contactEmail": "civil.dept@college.edu"
+    },
+    {
+      "id": "dept_hm",
+      "name": "Hostel & Mess",
+      "code": "HM",
+      "head": "Warden Rajesh",
+      "contactEmail": "hostel@college.edu"
+    },
+    {
+      "id": "dept_lib",
+      "name": "Library & Learning Center",
+      "code": "LIB",
+      "head": "Mr. V. Sundaram",
+      "contactEmail": "library@college.edu"
+    },
+    {
+      "id": "dept_fcm",
+      "name": "Facilities & Campus Maintenance",
+      "code": "FCM",
+      "head": "Eng. Prakash Patel",
+      "contactEmail": "maintenance@college.edu"
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat_1",
+      "name": "Academics & Examination",
+      "description": "Timetables, marksheets, hall tickets, lab equipment"
+    },
+    {
+      "id": "cat_2",
+      "name": "Infrastructure & Maintenance",
+      "description": "Classroom AC, projectors, lights, bench repairs"
+    },
+    {
+      "id": "cat_3",
+      "name": "Hostel & Food Quality",
+      "description": "Mess cleanliness, water supply, room maintenance"
+    },
+    {
+      "id": "cat_4",
+      "name": "IT & Campus Wi-Fi",
+      "description": "Wi-Fi connectivity, Portal access, Lab PCs"
+    },
+    {
+      "id": "cat_5",
+      "name": "Library & E-Resources",
+      "description": "Book availability, digital library access"
+    },
+    {
+      "id": "cat_6",
+      "name": "Harassment & Ragging Prohibition",
+      "description": "Strict zero-tolerance anti-ragging complaints"
+    },
+    {
+      "id": "cat_7",
+      "name": "Accounts & Tuition Fees",
+      "description": "Scholarship, fee receipts, payment gateways"
+    }
+  ],
+  "complaints": [
+    {
+      "id": "CMP-2026-1008",
+      "studentId": "usr_1791280404168",
+      "studentName": "aishu",
+      "registerNumber": "8201",
+      "isAnonymous": false,
+      "title": "door are broken",
+      "category": "Infrastructure & Maintenance",
+      "department": "AIDS (AI & Data Science)",
+      "description": "give me a quick response for our problem",
+      "priority": "High",
+      "status": "Submitted",
+      "assignedStaffId": null,
+      "assignedStaffName": null,
+      "attachmentUrl": null,
+      "isEscalated": false,
+      "escalatedAt": null,
+      "createdAt": "2026-10-06T15:14:13.907Z",
+      "updatedAt": "2026-10-06T15:14:33.659Z",
+      "timeline": [
+        {
+          "status": "Submitted",
+          "timestamp": "2026-10-06T15:14:13.907Z",
+          "updatedBy": "aishu",
+          "note": "Complaint lodged successfully."
+        },
+        {
+          "status": "Received",
+          "timestamp": "2026-10-06T15:14:13.907Z",
+          "updatedBy": "System Engine",
+          "note": "Routed automatically to AIDS (AI & Data Science) Department."
+        }
+      ]
+    },
+    {
+      "id": "CMP-2026-1007",
+      "studentId": "usr_student1",
+      "studentName": "Anonymous Student",
+      "registerNumber": "ANONYMOUS",
+      "isAnonymous": true,
+      "title": "water leakage",
+      "category": "Infrastructure & Maintenance",
+      "department": "IT (Information Tech)",
+      "description": "In our department so many water can be waste",
+      "priority": "High",
+      "status": "Submitted",
+      "assignedStaffId": "usr_staff_it",
+      "assignedStaffName": "Eng. Vikas Menon (IT)",
+      "attachmentUrl": null,
+      "isEscalated": false,
+      "escalatedAt": null,
+      "createdAt": "2026-10-06T10:34:07.932Z",
+      "updatedAt": "2026-10-06T15:03:16.391Z",
+      "timeline": [
+        {
+          "status": "Submitted",
+          "timestamp": "2026-10-06T10:34:07.932Z",
+          "updatedBy": "Anonymous Student",
+          "note": "Complaint lodged successfully."
+        },
+        {
+          "status": "Received",
+          "timestamp": "2026-10-06T10:34:07.932Z",
+          "updatedBy": "System Engine",
+          "note": "Routed automatically to IT (Information Tech) Department."
+        },
+        {
+          "status": "Submitted",
+          "timestamp": "2026-10-06T15:03:16.391Z",
+          "updatedBy": "Eng. Vikas Menon (IT)",
+          "note": "Status updated to Submitted"
+        }
+      ]
+    },
+    {
+      "id": "CMP-2026-1006",
+      "studentId": "usr_1791280404168",
+      "studentName": "Anonymous Student",
+      "registerNumber": "ANONYMOUS",
+      "isAnonymous": true,
+      "title": "FAn is not working in good condition",
+      "category": "Infrastructure & Maintenance",
+      "department": "IT (Information Tech)",
+      "description": "please take action soon and concern my problem",
+      "priority": "Medium",
+      "status": "Submitted",
+      "assignedStaffId": null,
+      "assignedStaffName": null,
+      "attachmentUrl": null,
+      "isEscalated": false,
+      "escalatedAt": null,
+      "createdAt": "2026-10-06T10:08:09.482Z",
+      "updatedAt": "2026-10-06T10:08:09.482Z",
+      "timeline": [
+        {
+          "status": "Submitted",
+          "timestamp": "2026-10-06T10:08:09.482Z",
+          "updatedBy": "Anonymous Student",
+          "note": "Complaint lodged successfully."
+        },
+        {
+          "status": "Received",
+          "timestamp": "2026-10-06T10:08:09.482Z",
+          "updatedBy": "System Engine",
+          "note": "Routed automatically to IT (Information Tech) Department."
+        }
+      ]
+    },
+    {
+      "id": "CMP-2026-1005",
+      "studentId": "usr_1791280404168",
+      "studentName": "aishu",
+      "registerNumber": "8201",
+      "isAnonymous": false,
+      "title": "wifi problem",
+      "category": "IT & Campus Wi-Fi",
+      "department": "IT (Information Tech)",
+      "description": "tygtfvfcrfcv",
+      "priority": "Low",
+      "status": "Submitted",
+      "assignedStaffId": null,
+      "assignedStaffName": null,
+      "attachmentUrl": null,
+      "isEscalated": false,
+      "escalatedAt": null,
+      "createdAt": "2026-10-06T09:54:03.097Z",
+      "updatedAt": "2026-10-06T09:55:54.344Z",
+      "timeline": [
+        {
+          "status": "Submitted",
+          "timestamp": "2026-10-06T09:54:03.097Z",
+          "updatedBy": "aishu",
+          "note": "Complaint lodged successfully."
+        },
+        {
+          "status": "Received",
+          "timestamp": "2026-10-06T09:54:03.097Z",
+          "updatedBy": "System Engine",
+          "note": "Routed automatically to IT (Information Tech) Department."
+        }
+      ]
+    },
+    {
+      "id": "CMP-2026-1001",
+      "studentId": "usr_student1",
+      "studentName": "Aishwarya Ramesh",
+      "registerNumber": "STU1001",
+      "isAnonymous": false,
+      "title": "CSE Lab 3 Wi-Fi connection drops during online lab exam",
+      "category": "IT & Campus Wi-Fi",
+      "department": "CSE (Computer Science & Engg)",
+      "description": "During the internal lab exam in CSE Lab 3, the campus Wi-Fi access point disconnected multiple times causing code loss. Requesting dedicated router check and exam extension.",
+      "priority": "High",
+      "status": "ESCALATED",
+      "assignedStaffId": "usr_staff_cse",
+      "assignedStaffName": "Prof. Anitha Nair (CSE)",
+      "attachmentUrl": null,
+      "isEscalated": true,
+      "escalatedAt": "2026-10-06T15:01:44.141Z",
+      "createdAt": "2026-10-05T03:52:45.485Z",
+      "updatedAt": "2026-10-06T15:02:33.080Z",
+      "timeline": [
+        {
+          "status": "Submitted",
+          "timestamp": "2026-10-05T03:52:45.485Z",
+          "updatedBy": "Aishwarya Ramesh",
+          "note": "Complaint lodged successfully."
+        },
+        {
+          "status": "Received",
+          "timestamp": "2026-10-05T05:52:45.485Z",
+          "updatedBy": "System",
+          "note": "Routed to CSE Department."
+        },
+        {
+          "status": "Under Review",
+          "timestamp": "2026-10-05T09:52:45.485Z",
+          "updatedBy": "Prof. Anitha Nair",
+          "note": "CSE Department staff reviewing network logs."
+        },
+        {
+          "status": "In Progress",
+          "timestamp": "2026-10-06T04:52:45.485Z",
+          "updatedBy": "Prof. Anitha Nair",
+          "note": "Replacing router switch in CSE Lab 3."
+        },
+        {
+          "status": "ESCALATED",
+          "timestamp": "2026-10-06T15:01:44.141Z",
+          "updatedBy": "SLA Engine (Demo Trigger)",
+          "note": "DEMO ESCALATION TRIGGERED: 24-hour response SLA exceeded."
+        },
+        {
+          "status": "ESCALATED",
+          "timestamp": "2026-10-06T15:02:33.080Z",
+          "updatedBy": "Prof. Anitha Nair (CSE)",
+          "note": "Status updated to ESCALATED"
+        }
+      ]
+    },
+    {
+      "id": "CMP-2026-1002",
+      "studentId": "usr_student3",
+      "studentName": "Karthik Raja",
+      "registerNumber": "STU1003",
+      "isAnonymous": false,
+      "title": "AIDS GPU Server Lab 2 PyTorch environment memory allocation error",
+      "category": "Academics & Examination",
+      "department": "AIDS (AI & Data Science)",
+      "description": "The NVIDIA RTX GPU workstation in AIDS Lab 2 throws CUDA out-of-memory errors during deep learning model training for the AI lab course.",
+      "priority": "High",
+      "status": "Under Review",
+      "assignedStaffId": "usr_staff_aids",
+      "assignedStaffName": "Dr. Arvind Swamy (AIDS)",
+      "attachmentUrl": null,
+      "isEscalated": false,
+      "escalatedAt": null,
+      "createdAt": "2026-10-05T21:52:45.485Z",
+      "updatedAt": "2026-10-06T01:52:45.485Z",
+      "timeline": [
+        {
+          "status": "Submitted",
+          "timestamp": "2026-10-05T21:52:45.485Z",
+          "updatedBy": "Karthik Raja",
+          "note": "Complaint submitted to AIDS Dept."
+        },
+        {
+          "status": "Under Review",
+          "timestamp": "2026-10-06T01:52:45.485Z",
+          "updatedBy": "Dr. Arvind Swamy",
+          "note": "Checking GPU driver configuration."
+        }
+      ]
+    },
+    {
+      "id": "CMP-2026-1003",
+      "studentId": "usr_student2",
+      "studentName": "Rahul Varma",
+      "registerNumber": "STU1002",
+      "isAnonymous": true,
+      "title": "Water filter unit leakage on Hostel Block B 2nd floor",
+      "category": "Hostel & Food Quality",
+      "department": "Hostel & Mess",
+      "description": "The drinking water cooler on Block B 2nd floor has been leaking continuously for 2 days, creating slippery water pooling on the corridor floor.",
+      "priority": "Medium",
+      "status": "Submitted",
+      "assignedStaffId": null,
+      "assignedStaffName": null,
+      "attachmentUrl": null,
+      "isEscalated": true,
+      "escalatedAt": "2026-10-06T08:52:45.485Z",
+      "createdAt": "2026-10-05T06:52:45.485Z",
+      "updatedAt": "2026-10-05T06:52:45.485Z",
+      "timeline": [
+        {
+          "status": "Submitted",
+          "timestamp": "2026-10-05T06:52:45.485Z",
+          "updatedBy": "Anonymous Student",
+          "note": "Complaint submitted anonymously."
+        },
+        {
+          "status": "ESCALATED",
+          "timestamp": "2026-10-06T08:52:45.485Z",
+          "updatedBy": "SLA Engine",
+          "note": "AUTOMATIC ESCALATION: First response SLA exceeded 24 hours."
+        }
+      ]
+    },
+    {
+      "id": "CMP-2026-1004",
+      "studentId": "usr_student1",
+      "studentName": "Aishwarya Ramesh",
+      "registerNumber": "STU1001",
+      "isAnonymous": false,
+      "title": "Damaged digital projector in Mechanical Seminar Hall",
+      "category": "Infrastructure & Maintenance",
+      "department": "MECH (Mechanical Engg)",
+      "description": "The ceiling projector displays distorted green tint across slides during guest lectures. Lamp replacement required.",
+      "priority": "Low",
+      "status": "Resolved",
+      "assignedStaffId": "usr_staff_mech",
+      "assignedStaffName": "Dr. Suresh Kumar (MECH)",
+      "attachmentUrl": null,
+      "resolutionDetails": "New HDMI cable and projector lamp bulb installed. Tested successfully.",
+      "isEscalated": false,
+      "escalatedAt": null,
+      "createdAt": "2026-10-02T09:52:45.485Z",
+      "updatedAt": "2026-10-05T09:52:45.485Z",
+      "timeline": [
+        {
+          "status": "Submitted",
+          "timestamp": "2026-10-02T09:52:45.485Z",
+          "updatedBy": "Aishwarya Ramesh",
+          "note": "Complaint submitted."
+        },
+        {
+          "status": "Under Review",
+          "timestamp": "2026-10-03T09:52:45.485Z",
+          "updatedBy": "Dr. Suresh Kumar",
+          "note": "Technician requisition created."
+        },
+        {
+          "status": "Resolved",
+          "timestamp": "2026-10-05T09:52:45.485Z",
+          "updatedBy": "Dr. Suresh Kumar",
+          "note": "Projector repaired and tested."
+        }
+      ]
+    }
+  ],
+  "chatMessages": [
+    {
+      "id": "msg_1",
+      "complaintId": "CMP-2026-1001",
+      "senderId": "usr_student1",
+      "senderName": "Aishwarya Ramesh",
+      "senderRole": "STUDENT",
+      "message": "Hello Ma'am, will our CSE lab exam be re-scheduled due to the Wi-Fi outage?",
+      "timestamp": "2026-10-05T23:52:45.485Z"
+    },
+    {
+      "id": "msg_2",
+      "complaintId": "CMP-2026-1001",
+      "senderId": "usr_staff_cse",
+      "senderName": "Prof. Anitha Nair (CSE)",
+      "senderRole": "DEPARTMENT_STAFF",
+      "message": "Hi Aishwarya, we are currently replacing the switch in CSE Lab 3. The re-test for affected students will be conducted this Friday at 2 PM.",
+      "timestamp": "2026-10-06T04:52:45.485Z"
+    },
+    {
+      "id": "msg_179128055434441",
+      "complaintId": "CMP-2026-1005",
+      "senderId": "usr_1791280404168",
+      "senderName": "aishu",
+      "senderRole": "STUDENT",
+      "message": "hii",
+      "timestamp": "2026-10-06T09:55:54.344Z"
+    },
+    {
+      "id": "msg_1791299673659wp",
+      "complaintId": "CMP-2026-1008",
+      "senderId": "usr_1791280404168",
+      "senderName": "aishu",
+      "senderRole": "STUDENT",
+      "message": "hii",
+      "timestamp": "2026-10-06T15:14:33.659Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif_1791299653908r1g",
+      "userId": "usr_principal",
+      "title": "📌 New College Complaint",
+      "message": "CMP-2026-1008 logged for AIDS (AI & Data Science) (High Priority)",
+      "type": "COMPLAINT",
+      "read": false,
+      "createdAt": "2026-10-06T15:14:13.907Z"
+    },
+    {
+      "id": "notif_1791299653908oap",
+      "userId": "usr_staff_aids",
+      "title": "📌 New Complaint Received",
+      "message": "CMP-2026-1008: door are broken ...",
+      "type": "COMPLAINT",
+      "read": false,
+      "createdAt": "2026-10-06T15:14:13.907Z"
+    },
+    {
+      "id": "notif_1791298996392",
+      "userId": "usr_student1",
+      "title": "🔔 Complaint Status Updated",
+      "message": "Your complaint CMP-2026-1007 status is now \"Submitted\".",
+      "type": "STATUS_UPDATE",
+      "read": false,
+      "createdAt": "2026-10-06T15:03:16.391Z"
+    },
+    {
+      "id": "notif_1791298953081",
+      "userId": "usr_student1",
+      "title": "🔔 Complaint Status Updated",
+      "message": "Your complaint CMP-2026-1001 status is now \"ESCALATED\".",
+      "type": "STATUS_UPDATE",
+      "read": false,
+      "createdAt": "2026-10-06T15:02:33.080Z"
+    },
+    {
+      "id": "notif_1791298904142",
+      "userId": "usr_principal",
+      "title": "🚨 SLA Escalation Alert",
+      "message": "Complaint CMP-2026-1001 in CSE (Computer Science & Engg) was escalated to Principal oversight!",
+      "type": "ESCALATION",
+      "read": false,
+      "createdAt": "2026-10-06T15:01:44.141Z"
+    },
+    {
+      "id": "notif_1791282847933qgp",
+      "userId": "usr_principal",
+      "title": "📌 New College Complaint",
+      "message": "CMP-2026-1007 logged for IT (Information Tech) (High Priority)",
+      "type": "COMPLAINT",
+      "read": false,
+      "createdAt": "2026-10-06T10:34:07.932Z"
+    },
+    {
+      "id": "notif_1791282847933a6a",
+      "userId": "usr_staff_it",
+      "title": "📌 New Complaint Received",
+      "message": "CMP-2026-1007: water leakage...",
+      "type": "COMPLAINT",
+      "read": false,
+      "createdAt": "2026-10-06T10:34:07.932Z"
+    },
+    {
+      "id": "notif_1791281289483j82",
+      "userId": "usr_principal",
+      "title": "📌 New College Complaint",
+      "message": "CMP-2026-1006 logged for IT (Information Tech) (Medium Priority)",
+      "type": "COMPLAINT",
+      "read": false,
+      "createdAt": "2026-10-06T10:08:09.482Z"
+    },
+    {
+      "id": "notif_179128128948394w",
+      "userId": "usr_staff_it",
+      "title": "📌 New Complaint Received",
+      "message": "CMP-2026-1006: FAn is not working in good condition...",
+      "type": "COMPLAINT",
+      "read": false,
+      "createdAt": "2026-10-06T10:08:09.482Z"
+    },
+    {
+      "id": "notif_17912804430976v8",
+      "userId": "usr_principal",
+      "title": "📌 New College Complaint",
+      "message": "CMP-2026-1005 logged for IT (Information Tech) (Low Priority)",
+      "type": "COMPLAINT",
+      "read": false,
+      "createdAt": "2026-10-06T09:54:03.097Z"
+    },
+    {
+      "id": "notif_1791280443097kyv",
+      "userId": "usr_staff_it",
+      "title": "📌 New Complaint Received",
+      "message": "CMP-2026-1005: wifi problem...",
+      "type": "COMPLAINT",
+      "read": false,
+      "createdAt": "2026-10-06T09:54:03.097Z"
+    },
+    {
+      "id": "notif_1",
+      "userId": "usr_principal",
+      "title": "🚨 SLA Escalation Alert",
+      "message": "Complaint CMP-2026-1003 (Hostel & Mess) has exceeded 24h first response SLA.",
+      "type": "ESCALATION",
+      "read": false,
+      "createdAt": "2026-10-06T08:52:45.485Z"
+    }
+  ],
+  "systemLogs": [
+    {
+      "id": "log_1791299653907",
+      "action": "COMPLAINT_SUBMITTED",
+      "user": "aishu",
+      "details": "Complaint CMP-2026-1008 lodged under AIDS (AI & Data Science)",
+      "timestamp": "2026-10-06T15:14:13.907Z"
+    },
+    {
+      "id": "log_1791299480249",
+      "action": "USER_LOGIN",
+      "user": "aishu (STUDENT)",
+      "details": "User authenticated successfully.",
+      "timestamp": "2026-10-06T15:11:20.249Z"
+    },
+    {
+      "id": "log_1791299464517",
+      "action": "PASSWORD_RESET",
+      "user": "aish",
+      "details": "Password reset completed via OTP.",
+      "timestamp": "2026-10-06T15:11:04.517Z"
+    },
+    {
+      "id": "log_1791299365229",
+      "action": "USER_LOGIN",
+      "user": "Aishwarya Ramesh (STUDENT)",
+      "details": "User authenticated successfully.",
+      "timestamp": "2026-10-06T15:09:25.229Z"
+    },
+    {
+      "id": "log_1791299351681",
+      "action": "STUDENT_REGISTER",
+      "user": "aish",
+      "details": "New student registered with Reg No 82011",
+      "timestamp": "2026-10-06T15:09:11.681Z"
+    },
+    {
+      "id": "log_1791299096353",
+      "action": "USER_LOGIN",
+      "user": "Dr. K. S. Ramanathan (PRINCIPAL)",
+      "details": "User authenticated successfully.",
+      "timestamp": "2026-10-06T15:04:56.355Z"
+    },
+    {
+      "id": "log_1791298996392",
+      "action": "STATUS_UPDATE",
+      "user": "Eng. Vikas Menon (IT)",
+      "details": "Updated CMP-2026-1007 status to Submitted",
+      "timestamp": "2026-10-06T15:03:16.391Z"
+    },
+    {
+      "id": "log_1791298983386",
+      "action": "USER_LOGIN",
+      "user": "Eng. Vikas Menon (IT) (DEPARTMENT_STAFF)",
+      "details": "User authenticated successfully.",
+      "timestamp": "2026-10-06T15:03:03.386Z"
+    },
+    {
+      "id": "log_1791298953081",
+      "action": "STATUS_UPDATE",
+      "user": "Prof. Anitha Nair (CSE)",
+      "details": "Updated CMP-2026-1001 status to ESCALATED",
+      "timestamp": "2026-10-06T15:02:33.080Z"
+    },
+    {
+      "id": "log_1791298890098",
+      "action": "USER_LOGIN",
+      "user": "Prof. Anitha Nair (CSE) (DEPARTMENT_STAFF)",
+      "details": "User authenticated successfully.",
+      "timestamp": "2026-10-06T15:01:30.098Z"
+    },
+    {
+      "id": "log_1791298831422",
+      "action": "USER_LOGIN",
+      "user": "aishu (STUDENT)",
+      "details": "User authenticated successfully.",
+      "timestamp": "2026-10-06T15:00:31.422Z"
+    },
+    {
+      "id": "log_1791282906280",
+      "action": "USER_LOGIN",
+      "user": "Eng. Vikas Menon (IT) (DEPARTMENT_STAFF)",
+      "details": "User authenticated successfully.",
+      "timestamp": "2026-10-06T10:35:06.280Z"
+    },
+    {
+      "id": "log_1791282847932",
+      "action": "COMPLAINT_SUBMITTED",
+      "user": "Anonymous",
+      "details": "Complaint CMP-2026-1007 lodged under IT (Information Tech)",
+      "timestamp": "2026-10-06T10:34:07.932Z"
+    },
+    {
+      "id": "log_1791282728022",
+      "action": "USER_LOGIN",
+      "user": "Aishwarya Ramesh (STUDENT)",
+      "details": "User authenticated successfully.",
+      "timestamp": "2026-10-06T10:32:08.022Z"
+    },
+    {
+      "id": "log_1791282517087",
+      "action": "USER_LOGIN",
+      "user": "Dr. K. S. Ramanathan (PRINCIPAL)",
+      "details": "User authenticated successfully.",
+      "timestamp": "2026-10-06T10:28:37.087Z"
+    },
+    {
+      "id": "log_1791282509840",
+      "action": "USER_LOGIN",
+      "user": "Dr. Suresh Kumar (MECH) (DEPARTMENT_STAFF)",
+      "details": "User authenticated successfully.",
+      "timestamp": "2026-10-06T10:28:29.840Z"
+    },
+    {
+      "id": "log_1791282505514",
+      "action": "USER_LOGIN",
+      "user": "Dr. Arvind Swamy (AIDS) (DEPARTMENT_STAFF)",
+      "details": "User authenticated successfully.",
+      "timestamp": "2026-10-06T10:28:25.514Z"
+    },
+    {
+      "id": "log_1791282498999",
+      "action": "USER_LOGIN",
+      "user": "Eng. Vikas Menon (IT) (DEPARTMENT_STAFF)",
+      "details": "User authenticated successfully.",
+      "timestamp": "2026-10-06T10:28:18.999Z"
+    },
+    {
+      "id": "log_1791282490355",
+      "action": "USER_LOGIN",
+      "user": "Prof. Anitha Nair (CSE) (DEPARTMENT_STAFF)",
+      "details": "User authenticated successfully.",
+      "timestamp": "2026-10-06T10:28:10.355Z"
+    },
+    {
+      "id": "log_1791282481711",
+      "action": "USER_LOGIN",
+      "user": "Aishwarya Ramesh (STUDENT)",
+      "details": "User authenticated successfully.",
+      "timestamp": "2026-10-06T10:28:01.711Z"
+    },
+    {
+      "id": "log_1791281289482",
+      "action": "COMPLAINT_SUBMITTED",
+      "user": "Anonymous",
+      "details": "Complaint CMP-2026-1006 lodged under IT (Information Tech)",
+      "timestamp": "2026-10-06T10:08:09.482Z"
+    },
+    {
+      "id": "log_1791281205660",
+      "action": "USER_LOGIN",
+      "user": "aishu (STUDENT)",
+      "details": "User authenticated successfully.",
+      "timestamp": "2026-10-06T10:06:45.660Z"
+    },
+    {
+      "id": "log_1791281013331",
+      "action": "USER_LOGIN",
+      "user": "aishu (STUDENT)",
+      "details": "User authenticated successfully.",
+      "timestamp": "2026-10-06T10:03:33.331Z"
+    },
+    {
+      "id": "log_1791280726979",
+      "action": "USER_LOGIN",
+      "user": "Aishwarya Ramesh (STUDENT)",
+      "details": "User authenticated successfully.",
+      "timestamp": "2026-10-06T09:58:46.979Z"
+    },
+    {
+      "id": "log_1791280657274",
+      "action": "USER_LOGIN",
+      "user": "Dr. Suresh Kumar (MECH) (DEPARTMENT_STAFF)",
+      "details": "User authenticated successfully.",
+      "timestamp": "2026-10-06T09:57:37.274Z"
+    },
+    {
+      "id": "log_1791280636514",
+      "action": "USER_LOGIN",
+      "user": "Aishwarya Ramesh (STUDENT)",
+      "details": "User authenticated successfully.",
+      "timestamp": "2026-10-06T09:57:16.514Z"
+    },
+    {
+      "id": "log_1791280443097",
+      "action": "COMPLAINT_SUBMITTED",
+      "user": "aishu",
+      "details": "Complaint CMP-2026-1005 lodged under IT (Information Tech)",
+      "timestamp": "2026-10-06T09:54:03.097Z"
+    },
+    {
+      "id": "log_1791280404169",
+      "action": "STUDENT_REGISTER",
+      "user": "aishu",
+      "details": "New student registered with Reg No 8201",
+      "timestamp": "2026-10-06T09:53:24.169Z"
+    },
+    {
+      "id": "log_1",
+      "action": "USER_LOGIN",
+      "user": "PRINCIPAL",
+      "details": "Principal logged in successfully.",
+      "timestamp": "2026-10-06T07:52:45.485Z"
+    }
+  ]
+}
